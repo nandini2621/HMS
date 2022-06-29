@@ -1,0 +1,70 @@
+body{
+background-image:url('doc.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+}
+/*To center the background image, set left and right margin to auto and make it into a block element*/
+img{
+display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 50%;
+}
+#heading{
+Font-family:High Tower Text;
+Font-size:30px;
+background-color:inherit;
+text-align:left;
+color:Black;
+overflow:none;
+/*The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.*/
+/*The overflow property only works for block elements with a specified height.*/
+}
+.header-img{
+height: 11%;
+width: 8%;
+}
+header h1{
+display: inline;
+}
+header h2{
+ font-size:30px;
+ font-family: High Tower Text;
+ text-align: left; 
+ margin-left:200px;
+}
+.user{
+background-color:inherit;
+opacity:0.6;
+height:320px;
+width:550px;
+position: relative;
+margin-left:50px;
+border-style:inset;
+padding:10px 20px;
+font-family: Bell MT;
+font-size:20px;
+}
+.input{
+height:30px; 
+width:200px;
+}
+.button{
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align:right;
+  outline: none;
+  color:#fff;/*For white shadow of Submit button*/
+  background-color:#C0392B;
+  border: none;
+  border-radius: 15px;
+  box-shadow:9px;
+}
+.button:hover {background-color:#C0392B}
+.button:active {
+  background-color:#C0392B;
+  box-shadow: 0 5px;
+  transform: translateY(6px);
+}
